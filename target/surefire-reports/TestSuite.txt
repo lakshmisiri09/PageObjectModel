@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 132.361 sec <<< FAILURE!
+validateElectronicsPageTitle(com.qa.testclass.ElectronicsClassTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.testclass.ElectronicsClassTest.validateElectronicsPageTitle(ElectronicsClassTest.java:50)
+
+walmartTitleTest(com.qa.testclass.LoginClassTest)  Time elapsed: 0.019 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.qa.testclass.LoginClassTest.walmartTitleTest(LoginClassTest.java:44)
+

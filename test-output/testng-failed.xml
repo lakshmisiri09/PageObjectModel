@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.qa.utils.ListenerClass"/>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerClass"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.qa.testclass.LoginClassTest">
+        <methods>
+          <include name="setup"/>
+          <include name="walmartTitleTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.testclass.LoginClassTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

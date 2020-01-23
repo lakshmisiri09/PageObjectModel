@@ -1,0 +1,7 @@
+com\qa\pages\ElectronicsClass.class
+com\qa\utils\UtilitiesClass.class
+com\qa\testbase\BaseClass.class
+com\qa\utils\ListenerClass.class
+com\qa\ExtentReportListener\ExtentReportListenerClass.class
+com\qa\pages\LoginClass.class
+com\qa\pages\TopDealsPage.class
