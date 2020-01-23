@@ -57,7 +57,7 @@ public class LoginClassTest extends BaseClass{
 			e.printStackTrace();
 		}
 	}
-	@Test(priority=3)
+	/*@Test(priority=3)
 	public void validateElectronicsTest()
 	{   
 		try
@@ -73,7 +73,7 @@ public class LoginClassTest extends BaseClass{
 		catch(Exception e){
 			e.printStackTrace();
 	}
-	}
+	}*/
 	
 	@AfterMethod()
 	public void teardown()

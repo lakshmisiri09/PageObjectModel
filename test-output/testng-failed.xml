@@ -3,7 +3,6 @@
 <suite name="Failed suite [Suite]" parallel="none">
   <listeners>
     <listener class-name="com.qa.utils.ListenerClass"/>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerClass"/>
   </listeners>
   <test name="Test(failed)" parallel="none">
     <classes>
